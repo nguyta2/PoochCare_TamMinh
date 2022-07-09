@@ -184,3 +184,120 @@ header {
   transition: all 0.3s;
   border-radius: 10px;
 }
+
+.owl-dots {
+  margin-top: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+}
+
+.owl-dots button.owl-dot {
+  padding: 1px 6px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 2px;
+  background-color: #fff;
+  display: block;
+  border-radius: 25px;
+  position: relative;
+  opacity: 0.9;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #189a46;
+  width: 30px;
+  height: 10px;
+}
+
+/* ABOUT */
+.about .about__content {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.about .about__content h6 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: #f53626;
+}
+
+.about .about__content h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 28px;
+  color: #696969;
+}
+
+a.read {
+  font-size: 17px;
+  padding: 0;
+  border-bottom: 2px solid #189a46;
+  color: #000c04;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+
+a.read:hover {
+  color: #189a46;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* FEATURES */
+.features {
+  background-color: rgba(147, 107, 232, 0.05);
+}
+
+.features .row .col__content {
+  padding: 40px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+}
+.features .row .col__content:hover {
+  background-color: rgba(147, 107, 232, 0.05);
+}
+
+.features .icon i {
+  color: #189a46;
+  font-size: 30px;
+}
+
+.features .col__content h4 a {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: block;
+  color: #000c04;
+  text-decoration: none;
+}
+
+.features .col__content h4 a:hover {
+  color: #189a46;
+}
