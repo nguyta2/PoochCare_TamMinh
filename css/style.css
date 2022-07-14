@@ -301,3 +301,31 @@ a.read:hover {
 .features .col__content h4 a:hover {
   color: #189a46;
 }
+
+/* start statistic */
+
+.statistic {
+  background: #189a46;
+  padding: 80px 0;
+  color: #fff;
+  padding: 48px 0;
+}
+
+.statistic_list {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.statistic .statistic_item {
+  width: 25%;
+}
+.statistic_list .statistic_item h2 {
+  font-size: 60px;
+}
+.statistic_list .statistic_item p {
+  font-size: 20px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+/* end statistic */
