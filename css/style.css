@@ -329,3 +329,225 @@ a.read:hover {
 }
 
 /* end statistic */
+
+/* start plan */
+
+.plan {
+  padding: 80px 0;
+  background-color: rgba(147, 107, 232, 0.05);
+}
+
+.plan .header {
+  text-align: center;
+}
+
+.plan .list .content1 {
+  border-radius: 20px;
+}
+
+.plan .header h6 {
+  font-size: 35px;
+  color: #f53626;
+  margin-bottom: 10px;
+}
+.plan .header h3 {
+  font-size: 45px;
+  margin-bottom: 48px;
+}
+.plan .list {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.plan .list h6 {
+  font-size: 25px;
+}
+
+.plan .list h4 {
+  font-size: 40px;
+  color: #189a46;
+  margin: 15px 0 20px;
+}
+.plan .list h4 label {
+  font-size: 25px;
+  vertical-align: text-top;
+}
+
+.plan .list h4 span {
+  font-size: 16px;
+  color: #999;
+}
+
+.plan .list p {
+  font-size: 18px;
+  padding-top: 6px;
+}
+
+.plan .list button {
+  padding: 12px 35px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #189a46;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
+
+.plan .list .headcontent {
+  background-color: #189a46;
+  color: #fff;
+}
+.plan .list .headcontent1 {
+  padding: 10px 0;
+}
+
+.plan .list .headcontent1 h4 {
+  color: #fff;
+}
+.plan .list .headcontent1 h4 span {
+  color: #fff;
+}
+
+.plan .list .headcontent1 h5 {
+  font-size: 15px;
+  padding: 8px 20px;
+  background-color: #fff;
+  color: #189a46;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* end plan */
+
+/* start information */
+.information {
+  padding: 80px;
+  text-align: center;
+}
+
+.information .header h6 {
+  font-size: 18px;
+  color: #f53626;
+}
+.information .header h3 {
+  font-size: 40px;
+}
+.information .header p {
+  font-size: 1.2em;
+}
+
+.information .media img {
+  border-radius: 10px;
+}
+
+.information .media i {
+  background: #fff;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+}
+/* end information */
+
+/* start testimonial */
+
+.testimonial {
+  padding: 80px 0;
+  background-color: rgba(147, 107, 232, 0.05);
+  text-align: center;
+}
+
+.testimonial .carousel {
+  display: flex;
+  background-color: #f3f1f8;
+}
+
+.testimonial .header h6 {
+  font-size: 18px;
+  color: #f53626;
+}
+
+.testimonial .header h3 {
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+
+.testimonial .carousel .content {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+
+.testimonial .carousel .content_img {
+  display: flex;
+}
+.testimonial .carousel .image {
+  height: 70px;
+  width: 70px;
+}
+.testimonial .carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.testimonial .carousel .name {
+  margin-left: 20px;
+}
+
+.testimonial .carousel .name h3 {
+  margin: 0;
+  margin-top: 6px;
+  font-size: 20px;
+}
+
+.testimonial .carousel .name p {
+  font-size: 17px;
+  color: #777;
+  opacity: 0.8;
+  margin-top: 3px;
+}
+/* endtestimonial */
+
+/* start subscription */
+
+.subscription {
+  padding: 80px 0;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+.subscription .header h3 {
+  font-size: 40px;
+}
+
+.subscription .mail {
+  display: flex;
+  margin-top: 48px;
+}
+
+.subscription .mail .input {
+  flex-basis: 70%;
+  height: 60px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.subscription .mail .button {
+  background-color: #189a46;
+  flex-basis: 25%;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in;
+}
+
+.subscription .mail .button:hover {
+  background-color: #116e32;
+}
+
+/* end subscription */
