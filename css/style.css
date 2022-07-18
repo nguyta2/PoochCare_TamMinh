@@ -313,7 +313,6 @@ a.read:hover {
   color: #189a46;
 }
 
-<<<<<<< Updated upstream
 /* start statistic */
 
 .statistic {
@@ -563,7 +562,6 @@ a.read:hover {
 }
 
 /* end subscription */
-=======
 /* SERVICES */
 .services .services__img img {
   border-radius: 10px;
@@ -599,4 +597,106 @@ a.read:hover {
   border-radius: 50%;
   display: inline-block;
 }
->>>>>>> Stashed changes
+
+/* start footer */
+.footer {
+  background-color: #111;
+}
+
+.footer h6.footer-title {
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.footer .footer-list ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.footer .footer-list ul li a {
+  font-weight: normal;
+  font-size: 16px;
+  color: #696969;
+  line-height: 28px;
+  text-decoration: none;
+}
+.footer .footer-list ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer .footer-list ul li p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #696969;
+  line-height: 26px;
+}
+
+.footer .social ul.social-icons {
+  margin-top: 3px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.footer .social ul.social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.footer .social ul li a {
+  margin-right: 0;
+  display: block;
+  text-decoration: none;
+}
+
+.footer .social ul li a i {
+  font-size: 16px;
+  color: #696969;
+  transition: all 0.3s;
+}
+
+.footer .social ul li a i:hover {
+  color: #fff;
+}
+
+.footer .footer__copyright {
+  border-top: 1px solid rgba(103, 99, 99, 0.14);
+  margin-top: 40px;
+}
+
+.footer .footer-list .row ul li a {
+  font-weight: normal;
+  font-size: 16px;
+  color: #696969;
+  line-height: 28px;
+}
+
+.footer .footer-list .row ul li a:hover {
+  color: #fff;
+}
+
+.footer .footer-list ul {
+  padding-left: 0;
+}
+
+.footer .footer__copyright_content {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.footer .footer__copyright_content a {
+  color: #f53626;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.footer .footer__copyright_content a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* end footer */
