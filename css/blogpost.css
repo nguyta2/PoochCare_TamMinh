@@ -16,9 +16,9 @@ body a {
   font-family: "Jost", sans-serif;
 }
 
-body img {
+/* body img {
   border-radius: 10px;
-}
+} */
 
 p {
   margin: 0;
@@ -232,6 +232,73 @@ li {
 .blog .header h3 {
   font-size: 40px;
   font-weight: 600;
+}
+
+.blog .row .blog_item {
+  padding: 0 15px;
+}
+
+.blog .row .item {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.blog .row .item:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 25px 98px 0 rgb(19 19 19 / 10%);
+}
+
+.blog .row .item img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.blog .row .item .info {
+  padding: 30px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog .row .item .info a {
+  color: #000c04;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  transition: all 0.3s;
+}
+.blog .row .item .info a:hover {
+  color: #189a46;
+}
+
+.blog .row .item .info p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: #696969;
+}
+
+.blog .row .item .info .name {
+  color: #999;
+}
+
+.blog .row .item .info .name a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000c04;
+}
+.blog .row .item .info .name a:hover {
+  color: #f53626;
+  transition: none;
+}
+.blog .row .item .info .meta {
+  font: 15px;
+  color: #888;
+}
+.blog .row .item .info .meta .comment {
+  display: inline-block;
+  margin-right: 15px;
 }
 
 /* footer */
