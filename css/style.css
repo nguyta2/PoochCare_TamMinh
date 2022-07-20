@@ -449,18 +449,13 @@ a.read:hover {
   font-size: 1.2em;
 }
 
+.information .media {
+}
+
 .information .media img {
   border-radius: 10px;
 }
 
-.information .media i {
-  background: #fff;
-  display: inline-block;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  border-radius: 50%;
-}
 /* end information */
 
 /* start testimonial */
