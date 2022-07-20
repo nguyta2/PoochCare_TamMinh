@@ -1,5 +1,5 @@
 Thông tin nhóm:
-Tâm nguyễn:
+Nguyễn Thanh Tâm:
     1. index.html:
         + Header
         + Carousel
