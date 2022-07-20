@@ -1,0 +1,22 @@
+Thông tin nhóm:
+Tâm nguyễn:
+    1. index.html:
+        + Header
+        + Carousel
+        + About us 
+        + Service 
+        + Reward 
+    2. About.html 
+    3. Service.html 
+
+Nguyễn Quang Minh:
+    1. index.html:
+        + Statistic
+        + Plan 
+        + Information 
+        + Testimonial
+        + Subcription
+        + Footer
+    2. Gallery.html 
+    3. BlogPost.html 
+    4. Contact.html 
